@@ -1,9 +1,12 @@
 {
+   "homepage": "https://thevipinmishra.github.io/wookie-movies",
   "name": "react-assignment",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+     "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
